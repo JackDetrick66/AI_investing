@@ -67,13 +67,13 @@ const options = {
         },
         smooth: {
           type: 'dynamic',  // curves the edge so label has more space
-          roundness: 0.2
+          roundness: 0.1
         }
       },
       physics: {
         enabled: true,  
         barnesHut: {
-          gravitationalConstant: -10000,
+          gravitationalConstant: -1000,
           
            
           springConstant: 0.0,
