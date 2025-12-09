@@ -67,7 +67,7 @@ const options = {
         },
         smooth: {
           type: 'dynamic',  // curves the edge so label has more space
-          roundness: 0.1
+          
         }
       },
       physics: {
@@ -76,7 +76,7 @@ const options = {
           gravitationalConstant: -1000,
           
            
-          springConstant: 0.0,
+          
           avoidOverlap: 1
         }
       }
