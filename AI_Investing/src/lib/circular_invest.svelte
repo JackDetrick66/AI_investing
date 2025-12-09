@@ -75,7 +75,7 @@ const options = {
         barnesHut: {
           gravitationalConstant: -2000,
           
-          springLength: 1000,  
+          springLength: 10000,  
           springConstant: 0.0
         }
       }
