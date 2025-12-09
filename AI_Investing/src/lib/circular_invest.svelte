@@ -23,13 +23,19 @@ const edges = [
         smooth: { type: 'curvedCCW', roundness: 0.3 }
     },
     {from: 5, to: 2, label: 'CoreWeave issues shares totalling $350M to OpenAI', url:'https://finance.yahoo.com/news/exclusive-coreweave-strikes-12-billion-182359450.html'},
-    {from: 2, to: 3, label: 'OpenAI to purchase and deploy AMD tech', url:'https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus'},
+    {from: 2, to: 3, label: 'OpenAI to purchase and deploy AMD tech', url:'https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus',
+        smooth: { type: 'curvedCCW', roundness: 0.3 }
+    },
     {from: 3, to: 2, label: 'AMD to allow OpenAI to purchase ~10% of AMD stock', url:'https://finance.yahoo.com/news/amd-stock-rockets-higher-on-multibillion-dollar-openai-deal-125503782.html'},
     {from: 2, to: 4, label: 'OpenAI strikes deal worth $300B with Oracle', url:'https://intuitionlabs.ai/articles/oracle-openai-300b-deal-analysis'},
     {from: 2, to: 1, label: 'OpenAI to build and deploy at least 10 gigawatts of AI datacenters with NVIDIA systems', url:'https://intuitionlabs.ai/articles/oracle-openai-300b-deal-analysis'},
-    {from: 1, to: 2, label: 'NVIDIA to invest up to $100B in OpenAI per gigawatt deployed', url:'https://intuitionlabs.ai/articles/oracle-openai-300b-deal-analysis'},
+    {from: 1, to: 2, label: 'NVIDIA to invest up to $100B in OpenAI per gigawatt deployed', url:'https://intuitionlabs.ai/articles/oracle-openai-300b-deal-analysis',
+        smooth: { type: 'curvedCCW', roundness: 0.3 }
+    },
     {from: 1, to: 5, label: 'NVIDIA owns $900M of CoreWeave stock', url:'https://www.cnbc.com/2025/05/15/nvidia-owned-900-million-worth-of-coreweave-shares-q1-filing-shows.html'},
-    {from: 5, to: 1, label: 'CoreWeave signs $6.3B order with Nvidia', url:'https://www.reuters.com/business/coreweave-nvidia-sign-63-billion-cloud-computing-capacity-order-2025-09-15/'},
+    {from: 5, to: 1, label: 'CoreWeave signs $6.3B order with Nvidia', url:'https://www.reuters.com/business/coreweave-nvidia-sign-63-billion-cloud-computing-capacity-order-2025-09-15/',
+        smooth: { type: 'curvedCCW', roundness: 0.3 }
+    },
     {from: 4, to: 3, label: 'Oracle to deploy 50,000 AMD AI chips', url:'https://www.cnbc.com/2025/10/14/oracle-cloud-to-deploy-50000-amd-ai-chips-as-alternative-to-nvidia.html'}
 
 ]
