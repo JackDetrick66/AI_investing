@@ -73,10 +73,11 @@ const options = {
       physics: {
         enabled: true,  
         barnesHut: {
-          gravitationalConstant: -2000,
+          gravitationalConstant: -10000,
           
           springLength: 10000,  
-          springConstant: 0.0
+          springConstant: 0.0,
+          avoidOverlap: 1
         }
       }
     };
