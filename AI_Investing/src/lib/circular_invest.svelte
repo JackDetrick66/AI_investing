@@ -74,7 +74,7 @@ const options = {
         enabled: true,  
         barnesHut: {
           gravitationalConstant: -2000,
-          centralGravity: 0.3,
+          
           springLength: 1000,  
           springConstant: 0.0
         }
