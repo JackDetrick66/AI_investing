@@ -105,8 +105,8 @@ const network = new Network(container, data, options);
 
 <style>
     div{
-  height: 100vh;
-  width: 100vw;
+  height: 95vh;
+  width: 95vw;
   box-sizing: border-box;
     }
 </style>

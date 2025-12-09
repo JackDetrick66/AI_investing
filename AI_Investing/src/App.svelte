@@ -8,6 +8,9 @@
   
 
   <div class="card">
+    <h1>Circular AI Investments: 
+      Total Valuation of Companies: $6.3306 Trillion |
+      Investments Value: $425.05 Billion</h1>
     <Circular />
   </div>
 </main>
