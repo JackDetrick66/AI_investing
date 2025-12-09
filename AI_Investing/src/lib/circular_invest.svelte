@@ -18,8 +18,10 @@
 
 // create an array of edges for the nodes
 const edges = [
-    {from: 2, to: 5, label: 'OpenAI invests into Coreweave, $11.9B', url:'https://www.coreweave.com/news/coreweave-announces-agreement-with-openai-to-deliver-ai-infrastructure'},
-    {from: 2, to: 5, label: 'OpenAI EXPANDS investment into Coreweave, $6.5B', url:'https://www.reuters.com/business/coreweave-expands-openai-pact-with-new-65-billion-contract-2025-09-25/'},
+    {from: 2, to: 5, label: 'OpenAI invests into Coreweave, $18.9B', url:'https://www.coreweave.com/news/coreweave-announces-agreement-with-openai-to-deliver-ai-infrastructure'},
+    {from: 2, to: 5, label: 'OpenAI EXPANDS investment into Coreweave, $6.5B', url:'https://www.reuters.com/business/coreweave-expands-openai-pact-with-new-65-billion-contract-2025-09-25/', 
+        smooth: { type: 'curvedCCW', roundness: 0.3 }
+    },
     {from: 5, to: 2, label: 'CoreWeave issues shares totalling $350M to OpenAI', url:'https://finance.yahoo.com/news/exclusive-coreweave-strikes-12-billion-182359450.html'},
     {from: 2, to: 3, label: 'OpenAI to purchase and deploy AMD tech', url:'https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus'},
     {from: 3, to: 2, label: 'AMD to allow OpenAI to purchase ~10% of AMD stock', url:'https://finance.yahoo.com/news/amd-stock-rockets-higher-on-multibillion-dollar-openai-deal-125503782.html'},
