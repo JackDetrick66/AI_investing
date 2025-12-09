@@ -49,7 +49,8 @@ const options = {
       edges: {
         color:{
             color: 'gray',
-            highlight: 'red'
+            highlight: 'red',
+            margin: 10
         },
 
         arrows: {
