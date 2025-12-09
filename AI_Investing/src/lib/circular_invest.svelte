@@ -62,7 +62,7 @@ const options = {
         
         font: {
           size: 12,
-          align: 'top'  // 'top', 'middle', 'bottom' - position relative to edge
+          align: 'top'  
           
         },
         smooth: {
@@ -71,11 +71,11 @@ const options = {
         }
       },
       physics: {
-        enabled: true,  // lets nodes spread out naturally
+        enabled: true,  
         barnesHut: {
           gravitationalConstant: -2000,
           centralGravity: 0.3,
-          springLength: 1000,  // more space between nodes
+          springLength: 1000,  
           springConstant: 0.0
         }
       }
