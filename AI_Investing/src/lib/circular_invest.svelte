@@ -67,7 +67,9 @@ const options = {
           
         },
         smooth: {
-          type: 'dynamic',  // curves the edge so label has more space
+            enabled: true,
+            type: 'dynamic',
+            roundness: 1.0  // curves the edge so label has more space
           
         }
       },
