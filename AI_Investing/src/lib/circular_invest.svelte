@@ -75,7 +75,7 @@ const options = {
         barnesHut: {
           gravitationalConstant: -10000,
           
-          springLength: 10000,  
+           
           springConstant: 0.0,
           avoidOverlap: 1
         }
@@ -83,6 +83,9 @@ const options = {
     };
 
 const network = new Network(container, data, options);
+network.once('stabilizationIterationsDone', function(){
+        network.setOptions({physics:false});
+    });
 
     network.on('click', function(params) {
       if (params.edges.length > 0) {
@@ -95,6 +98,9 @@ const network = new Network(container, data, options);
         }
 
         }
+    });
+    network.once('stabilizationIterationsDone', function(){
+        network.setOptions({physics:false});
     });
 
 });
